@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scuola di Teatro Corpus Domini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        .hero {
+            background: #4CAF50;
+            color: white;
+            padding: 4em 0;
+            text-align: center;
+        }
+        main {
+            padding: 2em;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 2em;
+        }
+        .cta button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background-color: #45a049;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        form button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scuola di Teatro Corpus Domini</h1>
+    </header>
+    <section class="hero">
+        <h2>Benvenuti alla Scuola di Teatro Corpus Domini</h2>
+        <p>Scopri la magia del teatro con i nostri corsi professionali.</p>
+    </section>
+    <main>
+        <section class="section">
+            <h2>Inizio Corsi</h2>
+            <p>I nostri prossimi corsi iniziano il <strong>14 ottobre 2024</strong>. Non perdere l'opportunità di unirti a noi!</p>
+        </section>
+        <section class="section">
+            <h2>Corsi Offerti</h2>
+            <p>Offriamo corsi per tutti i livelli: principiante, intermedio e avanzato. I corsi si svolgono in modalità presenziale.</p>
+            <p><strong>Formula Pay As You Go:</strong> Paga solo per le lezioni che frequenti. Per maggiori informazioni sui costi, contattaci.</p>
+        </section>
+        <section class="section">
+            <h2>Sede</h2>
+            <p>Via Pomponazzi, accanto al Centro Commerciale Fossolo 2, presso la Chiesa del Corpus Domini, Bologna</p>
+            <p>Orari di apertura: dalle 18:00 alle 20:00</p>
+        </section>
+        <section class="section">
+            <h2>Contattaci</h2>
+            <form action="mailto:info@scuoladiteatrocorpusdomini.it" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" rows="4" placeholder="Messaggio" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
+            <p>Telefono: +39 051 637 9789</p> <!-- Numero ricavato per la Chiesa del Corpus Domini -->
+            <p>Email: <a href="mailto:info@scuoladiteatrocorpusdomini.it">info@scuoladiteatrocorpusdomini.it</a></p>
+        </section>
+        <section class="cta">
+            <button onclick="window.location.href='mailto:info@scuoladiteatrocorpusdomini.it'">Iscriviti ora</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scuola di Teatro Corpus Domini</p>
+        <p><a href="https://www.facebook.com/ChiesaCorpusDominiBologna" target="_blank" style="color: white;">Segui la Chiesa del Corpus Domini su Facebook</a></p>
+    </footer>
+</body>
+</html>
