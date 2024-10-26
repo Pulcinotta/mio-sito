@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sviluppo software su misura per le tue esigenze.">
+    <title>Servizi di Sviluppo - Movie & Show Hunting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Movie & Show Hunting Development</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Chi Siamo</a></li>
+                    <li><a href="#services">Servizi</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Soluzioni di Sviluppo Software su Misura</h2>
+            <p>Creiamo applicazioni e siti web che soddisfano le tue esigenze specifiche.</p>
+            <a href="#signup" class="cta-button">Richiedi un Preventivo</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Chi Siamo</h2>
+        <p>Specializzati nello sviluppo software, offriamo soluzioni innovative per migliorare il tuo business. La nostra esperienza ci consente di creare applicazioni scalabili e performanti.</p>
+    </section>
+
+    <section id="services">
+        <h2>Servizi Offerti</h2>
+        <div class="service">
+            <h3>Sviluppo Web</h3>
+            <p>Creiamo siti web reattivi e personalizzati per ogni tipo di business.</p>
+        </div>
+        <div class="service">
+            <h3>App Mobile</h3>
+            <p>Progettiamo e sviluppiamo applicazioni per iOS e Android.</p>
+        </div>
+        <div class="service">
+            <h3>Consulenza IT</h3>
+            <p>Offriamo consulenze personalizzate per ottimizzare i processi aziendali.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Progetto di Sviluppo App</h3>
+            <p>Realizzazione di un'app mobile per la gestione di eventi, con funzionalità di registrazione e notifiche.</p>
+            <img src="project-image.jpg" alt="Immagine del progetto">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonianze</h2>
+        <blockquote>
+            <p>"Lavorare con Movie & Show Hunting Development ha trasformato il nostro approccio al business!" – Nome, Azienda.</p>
+        </blockquote>
+    </section>
+
+    <section id="signup">
+        <h2>Contattaci per un Preventivo!</h2>
+        <a href="contact.html" class="cta-button">Richiedi un Preventivo</a>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Movie & Show Hunting Development. Tutti i diritti riservati.</p>
+            <p><a href="#contact">Contatti</a> | <a href="#privacy">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
